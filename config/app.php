@@ -122,10 +122,22 @@ return [
     'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
+    /*
+     |------------------------------------------------------------------------
+     |  Developer Information Details
+     |------------------------------------------------------------------------
+     |
+     |
+     |
+     */
+    'developer'             => env('DEVELOPER_NAME', 'Mukhula Azam Mamun'),
+    'developer_email'       => env('DEVELOPER_EMAIL', 'mukhulaazam@gmail.com'),
+    'developer_support'     => env('DEVELOPER_SUPPORT', 'mukhulaazam@gmail.com'),
+    'developer_url'         => env('DEVELOPER_URL', 'https://mamun.xyz'),
 
     /*
     |--------------------------------------------------------------------------
-    | Autoloaded Service Providers
+    | Auto loaded Service Providers
     |--------------------------------------------------------------------------
     |
     | The service providers listed here will be automatically loaded on the
