@@ -29,17 +29,26 @@
 	
 </head>
 <body>
-	<!-- Hold The Full Application -->
+	<!-- Hold The Full Application Started-->
 
 	<div id="app" class="app">
 		<!-- Navigation Bar Section Scope Started Here -->
 		<nav class="dr-navbar" id="">
 			
 			<!-- Navigation item scope started -->
-			<div class="" id="">
+			<div class="dr-user-wrapper" id="">
 				<figure class="dr-circle-profile">
 					<figcaption>Dr.</figcaption>
 					<span style="background-image: url('/img/Dr.jpg');"></span>
+					<div class="dropdown">
+						<div class="dropout">
+							<div class="triangle"></div>
+							<ul>
+								<li><a href="">Setting</a></li>
+								<li><a href="">Logout</a></li>
+							</ul>
+						</div>
+					</div>
 				</figure>
 			</div>
 			<!-- Navigation item scope end -->
@@ -47,6 +56,7 @@
 		<!-- Navigation Bar Section Scope End Here -->
 	</div>
 
+	<!-- Hold The Full Application End -->
 
 	<!-- -------------------------------------------------------------------
 	-																	   -
