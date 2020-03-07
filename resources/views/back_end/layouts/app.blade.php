@@ -32,15 +32,19 @@
 	<!-- Hold The Full Application Started-->
 
 	<div id="app" class="app">
-		<!-- Navigation Bar Section Scope Started Here -->
+		<!-- Top Navigation Bar Section Scope Started Here -->
 		<nav class="dr-navbar" id="">
 			
+			
+			<!-- Logged in user Name or E-mail secrion started -->
+			<span class="mr-3">Dr. Mamun</span>
 			<!-- Navigation item scope started -->
 			<div class="dr-user-wrapper" id="">
 				<figure class="dr-circle-profile">
 					<figcaption>Dr.</figcaption>
 					<span style="background-image: url('/img/Dr.jpg');"></span>
-					<div class="dropdown">
+				</figure>
+				<div class="dropdown">
 						<div class="dropout">
 							<div class="triangle"></div>
 							<ul>
@@ -49,11 +53,26 @@
 							</ul>
 						</div>
 					</div>
-				</figure>
 			</div>
 			<!-- Navigation item scope end -->
 		</nav>
-		<!-- Navigation Bar Section Scope End Here -->
+		<!-- Top Navigation Bar Section Scope End Here -->
+
+		<!-- Include Scope -->
+
+
+
+
+		<!-- All dynamic content holding scope here -->
+		@yield('content')
+
+
+
+		<!-- Footer Section started from here -->
+		<footer>
+			<span class="text-uppercase">design and developed by Dr. Mamun</span>
+		</footer>
+		<!-- Footer Section end from here -->
 	</div>
 
 	<!-- Hold The Full Application End -->
