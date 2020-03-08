@@ -36,7 +36,7 @@
 		<nav class="dr-navbar" id="">
 			
 			
-			<!-- Logged in user Name or E-mail secrion started -->
+			<!-- Logged in user Name or E-mail section started -->
 			<span class="mr-3">Dr. Mamun</span>
 			<!-- Navigation item scope started -->
 			<div class="dr-user-wrapper" id="">
@@ -70,7 +70,7 @@
 
 		<!-- Footer Section started from here -->
 		<footer>
-			<span class="text-uppercase">design and developed by Dr. Mamun</span>
+			
 		</footer>
 		<!-- Footer Section end from here -->
 	</div>
